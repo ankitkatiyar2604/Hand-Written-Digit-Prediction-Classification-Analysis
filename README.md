@@ -1,37 +1,43 @@
-# Movie Recommendation System
+This repository contains the code and documentation for the Handwritten Digit Prediction project, completed as part of the Data Science and Machine Learning Internship at Ybi Foundation.
 
-## Author: Ankit Katiyar
+Project Overview
+The objective of this project was to build a machine learning model that accurately predicts handwritten digits (0-9) using the sci-kit-learn's built-in "digits" dataset. The dataset consists of images of handwritten digits, where each image is an 8x8 pixel matrix. The project involved data preprocessing, model training, evaluation, and prediction.
 
-## Project Overview
+Installation
+To run the code and reproduce the results, you need the following dependencies:
 
-Welcome to **Movie Match**, your personalized movie recommendation system! Powered by the Close Match algorithm, Movie Match offers highly accurate movie suggestions based on your preferences.
+Python 3. x
+sci-kit-learn
+NumPy
+pandas
+matplotlib
+You can install the required packages using pip:
 
-## Dataset
+pip install sci-kit-learn numpy pandas matplotlib
 
-For this project, I utilized the dataset from the YBI Foundation Kaggle repository. You can access the dataset [here](https://github.com/YBIFoundation/Dataset/raw/main/Customer%20Purchase.csv). This dataset contains comprehensive information about movies, user ratings, and other relevant features necessary for building our recommendation system.
+Project Structure
+The project is structured as follows:
 
-How It Works
+handwritten_digit_prediction.ipynb: Jupyter notebook containing the code for data loading, preprocessing, model training, evaluation, and prediction.
+images/: Directory containing images used in the README.
+Data
+The dataset used for this project is the "digits" dataset from sci-kit-learn's built-in datasets. It consists of 1797 images of handwritten digits, each represented by an 8x8 pixel matrix. The target variable represents the actual digit value (0-9).
 
-- Close Match Algorithm: Movie Match uses the Close Match algorithm to identify approximate string matches, accommodating minor input variations such as typos or incomplete titles.
-- Personalized Recommendations: Input your favorite movie, and Movie Match will provide you with a curated list of movie recommendations tailored just for you.
+Usage
+Clone this repository:
+git clone https://github.com/your-username/handwritten-digit-prediction.git
 
-## Usage
+Open the Jupyter Notebook handwritten_digit_prediction.ipynb using Jupyter Notebook or JupyterLab.
 
-To get your personalized movie recommendations:
-1. Click on the dataset link above to access our movie database.
-2. Input your favorite movie into Movie Match.
-3. Enjoy a handpicked selection of movies matched to your unique taste!
+Run the cells in the notebook to execute the code step-by-step.
 
-To explore the Colab notebook for detailed code implementation and analysis, click [here](https://colab.research.google.com/github/virajbhutada/ybi_foundation-task/blob/main/Movie%20Recommendation%20System/Movie_Recommendation_System_Colab%20(1).ipynb)
+Results
+After running the notebook, you will see the accuracy of the trained model and performance metrics such as the confusion matrix and classification report. Additionally, you can use the trained model to make predictions for new handwritten digits.
 
-## Feedback
+Conclusion
+The Handwritten Digit Prediction project showcases the power of classification models in identifying handwritten digits with high accuracy. Through this internship at Ybi Foundation, I gained valuable experience in data preprocessing, model training, and evaluation, which will undoubtedly contribute to my journey in the field of Data Science and Machine Learning.
 
-I value your feedback! If you have any questions, suggestions, or issues, please feel free to contact me.
+Feel free to reach out if you have any questions or feedback on the project. Happy learning! 🚀📊
 
-Enjoy your cinematic journey with Movie Match!
-
-
-
-
-
-
+Acknowledgments
+I would like to express my gratitude to Ybi Foundation for providing me with this enriching internship opportunity and guiding me throughout this project
